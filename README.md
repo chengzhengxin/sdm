@@ -4,46 +4,44 @@
 
 git clone [https://github.com/RoboPai/sdm.git](https://github.com/RoboPai/sdm.git)
 
-    <span class="hljs-keyword">cd</span> sdm/example/
-    ./Roboman-SDM-TEST.<span class="hljs-keyword">exe</span>
-    `</pre>
+	cd sdm/example/
+    ./Roboman-SDM-TEST.exe
 
-    You will look like as follows:
+You will look like as follows:
 
-    ![image](https://github.com/RoboPai/sdm/example/1.jpg)
+![image](https://github.com/RoboPai/sdm/raw/master/example/1.jpg)
 
-    ![image](https://github.com/RoboPai/sdm/example/2.jpg)
+![image](https://github.com/RoboPai/sdm/raw/master/example/2.jpg)
 
-    ![image](https://github.com/RoboPai/sdm/example/3.jpg)
+![image](https://github.com/RoboPai/sdm/raw/master/example/3.jpg)
 
-    ![image](https://github.com/RoboPai/sdm/example/4.jpg)
+![image](https://github.com/RoboPai/sdm/raw/master/example/4.jpg)
 
-    ### How to compile on windows？
+### How to compile on Windows？
 
-    Make sure you have installed the cmake-gui & Qt5.3(mingw will be needed).
+Make sure you have installed the cmake-gui & Qt5.3.2 (mingw will be needed).
 
-    <pre>`<span class="hljs-built_in">mkdir</span> build
-    <span class="hljs-keyword">cd</span> build
-    cmake-<span class="hljs-keyword">gui</span>
-    mingw32-<span class="hljs-keyword">make</span>
-    `</pre>
+	mkdir build
+	cd build
+	cmake-gui
+	mingw32-make
 
-    ### How to compile on Ubuntu？
+### How to compile on Ubuntu？
 
-    Maybe you should modify the CMakeList.txt about OpenCV
+Maybe you should modify the CMakeLists.txt about OpenCV libs
 
-    <pre>`<span class="hljs-built_in">mkdir</span> build
-    <span class="hljs-keyword">cd</span> build
-    cmake ..
-    <span class="hljs-keyword">make</span>
-    <span class="hljs-keyword">cp</span> Roboman-SDM-TEST ../example/
-    <span class="hljs-keyword">cd</span> ../example/
-    ./Roboman-SDM-TEST
+	mkdir build
+	cd build
+	cmake ..
+	make
+	cp Roboman-SDM-TEST ../example/
+	cd ../example/
+	./Roboman-SDM-TEST
 
 ### How to compile on iOS？
 
-Add the OpenCV2.framework &amp; src folder to you source codes, compile &amp; enjoy it.
+Add the OpenCV2.framework & src folder to you source codes, compile & enjoy it.
 
 ### How to compile on Android？
 
-According to Android cmake
+According to Android-cmake-Tool.
