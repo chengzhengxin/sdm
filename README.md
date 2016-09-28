@@ -47,6 +47,8 @@ Maybe you should modify the CMakeLists.txt about OpenCV libs
 
 4.And then "#include "include/ldmarkmodel.h"" in your .mm file, make sure not in .h file, use it like test_model.cpp, Compile & enjoy it.
 
+5.Make sure iOS project Build Settings option "Enable Bitcode" is "NO" (above XCode7).
+
 ### How to compile on Android？
 
 According to Android-cmake-Tool.
