@@ -39,8 +39,13 @@ Maybe you should modify the CMakeLists.txt about OpenCV libs
 	./Roboman-SDM-TEST
 
 ### How to compile on iOS？
-Copy "haar_roboman_ff_alt2.xml" & "roboman-landmark-model.bin" to your iOS Project.
-Add the OpenCV2.framework to you iOS Project, make sure you can easily read camera and show frame with OpenCV. And copy the include folder under src folder to you iOS Project source code, just copy, not anything else. And then "#include "include/ldmarkmodel.h"" in your .mm file, make sure not in .h file, use it like test_model.cpp, Compile & enjoy it.
+1.Copy "haar_roboman_ff_alt2.xml" & "roboman-landmark-model.bin" to your iOS Project.
+
+2.Add the OpenCV2.framework to you iOS Project, make sure you can easily read camera and show frame with OpenCV. 
+
+3.Copy the include folder under src folder to you iOS Project source code, just copy, not anything else.
+
+4.And then "#include "include/ldmarkmodel.h"" in your .mm file, make sure not in .h file, use it like test_model.cpp, Compile & enjoy it.
 
 ### How to compile on Android？
 
