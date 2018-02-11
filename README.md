@@ -2,7 +2,7 @@
 
 ### example
 
-git clone [https://github.com/RoboPai/sdm.git](https://github.com/RoboPai/sdm.git)
+git clone [https://github.com/chengzhengxin/sdm.git](https://github.com/chengzhengxin/sdm.git)
 
     cd sdm/example/
     ./Roboman-SDM-TEST.exe
